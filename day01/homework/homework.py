@@ -1,0 +1,1 @@
+print("me gavicani:nika taktakidze,giorgi melikidze,nika maisuradze,deme biganashvili,nika kuchashvili")
