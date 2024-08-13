@@ -1,0 +1,46 @@
+#div1, #div2, #div3, #div4, #div5{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(0, 242, 255);
+    text-shadow: rgb(255, 0, 170);
+}
+#div1-div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(117, 107, 107);
+    text-align: center;
+    text-decoration: dotted;
+    text-transform: capitalize;
+}
+#div2-div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(122, 82, 82);
+    text-align: right;
+    text-decoration: double;
+}
+#div3-div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(0, 255, 34);
+    color: rgb(106, 0, 255);
+    text-align: justify;
+    text-decoration: solid;
+    text-transform: none;
+}
+#div4-div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(30, 0, 255);
+    color: white;
+    text-align: center;
+    text-decoration: wavy;
+}
+#div5-div{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: left;
+    text-decoration: dashed;
+}

@@ -1,0 +1,32 @@
+.dropdawn {
+    display: inline-block;
+}
+.dropdawn button {
+    background-color: rgb(0, 0, 218);
+    color: white;
+    padding: 10x 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdawn a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdawn .content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdawn:hover .content {
+    display: block;
+}
+.dropdawn:hover button {
+    background-color: aqua;
+}
+.dropdawn a:hover {
+    background-color: blanchedalmond;
+}
