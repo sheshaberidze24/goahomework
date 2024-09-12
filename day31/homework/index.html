@@ -3,67 +3,42 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NOT ENDED</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div class="conteiner">
-            <h1>Conect With Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                 Laudantium nobis placeat vel,<br> eligendi incidunt cumque
-                  inventore facilis eaque, consequuntur doloremque debitis
-                   reprehenderit. Veniam at <br>
-                recusandae sint voluptatem! Officia, officiis sequi!</p>
-                <div class="contact-box">
-                    <div class="contact-left">
-                       <h3>Sent Your Request</h3>
-                       <form>
-                        <div class="input-row">
-                            <div class="input-group">
-                                <label>Name</label>
-                                <input type="text" placeholder="Nika Sheshaberidze">
-                            </div>
-                            <div class="input-group">
-                                <label>Phone</label>
-                                <input type="text" placeholder="571 144 305">
-                            </div>
-                            <div class="input-row">
-                                <div class="input-group">
-                                    <label>Email</label>
-                                    <input type="text" placeholder="nikasheshaberidze4@gmail.com">
-                                </div>
-                                <div class="input-group">
-                                    <label>Subject</label>
-                                    <input type="text" placeholder="front-end developer">
-                                </div>
+        <div id="main-div">
+            <div id="div-1" class="content-div">
+                <div class="padding-div">
+                    <p>General Information</p>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required placeholder="Your name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="Your email">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required placeholder="Your password">
+                    </form>
+                </div>
+            </div>
+            <div id="div-2" class="content-div">
+                <div class="padding-div">
+                    <p>Contact Details</p>
+                    <form>
+                        <label for="name1">Name</label>
+                        <input type="text" name="name" id="name1" required placeholder="Your name">
+                        <label for="email1">Email</label>
+                        <input type="email" name="email" id="email1" required placeholder="Your email">
+                        <label for="password1">Password</label>
+                        <input type="password" name="password" id="password1" required placeholder="Your password">
+                        <div class="checkbox">
+                            <input type="checkbox" id="checkbox">
+                            <label id="checkbox-label" for="checkbox">I do accept the <span>Tarms and Conditions</span> of your site</label>
                         </div>
-                        <label>Message</label>
-                        <textarea rows="10" placeholder="Your Massage"></textarea>
-                        <button type="submit">SEND</button>
-                       </form>
-                    </div>
-                <div class="contact-right">
-                    <h3>Reach Us</h3>
-                    <table>
-                        <tr>
-                            <td>Email</td>
-                            <td>contactus@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td>Phone</td>
-                            <td>568 902 901</td>
-                        </tr>
-                        <tr>
-                            <td>Adress</td>
-                            <td>Vardziis 1 G</td>
-                        </tr>
-                    </table>
+                        <button>Register Badge</button>
+                    </form>
                 </div>
-                </div>
+            </div>
         </div>
-        
     </body>
 </html>

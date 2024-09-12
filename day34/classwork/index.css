@@ -1,0 +1,11 @@
+#gela {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+#gela:hover {
+    transform: rotate(45deg) scale(2);
+}
