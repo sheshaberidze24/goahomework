@@ -1,56 +1,160 @@
-from turtle import *
-speed(200)
-width(7)
-color("green")
-forward(200)
-left(90)
-forward(200)
-left(90)
-forward(200)
-left(90)
-forward(200)
-left(90)
-forward(70)
+from turtle import*
+
+
+
+#we want to paint a house
+
+#step 1: draw a square
+speed(20)
+width(2)
+color("black")
 begin_fill()
+forward(200)
+left(90)
+
+forward(200)
+left(90)
+
+forward(200)
+left(90)
+
+forward(200)
+left(90)
+end_fill()
+#end 0f square
+
+#drawing a door
+
+
+forward(80)
+left(90)
 color("red")
+begin_fill()
+forward(120)            #height of the dor
+right(90)
+forward(40)
+right(90)
+forward(120)
+right(90)
+forward(40)
 left(90)
-forward(120)
-right(90)
-forward(60)
-right(90)
-forward(120)
 end_fill()
+
 penup()
-goto(200,200)
+goto(110, 70)
 pendown()
-color("purple")
-begin_fill()
-right(150)
-forward(200)
-left(120)
-forward(200)
-end_fill()
+
+color("black")
+forward(10)
+
+
 penup()
-goto(70,130)
+goto(0, 200)
 pendown()
-color("blue")
+
+color("red")
 begin_fill()
-right(150)
-forward(50)
-right(90)
-forward(60)
-right(90)
-forward(50)
-right(90)
-forward(60)
+left(130)
+forward(130)
+right(80)
+forward(130)
+right(140)
+forward(200)
 end_fill()
 
+penup()
+goto(30, 180)
+pendown()
 
 
+color("light blue")
+begin_fill()
+left(90)
+forward(40)
 
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+end_fill()
+
+color("gray")
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+penup()
+goto(70, 160)
+pendown()
+
+forward(40)
+
+penup()
+goto(50, 180)
+pendown()
+
+left(90)
+forward(40)
+right(90)
+
+penup()
+goto(140, 180)
+pendown()
+
+color("light blue")
+begin_fill()
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+end_fill()
+
+color("gray")
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+left(90)
+forward(40)
+
+penup()
+goto(180, 160)
+pendown()
+
+forward(40)
+
+penup()
+goto(160, 180)
+pendown()
+
+left(90)
+forward(40)
 
 exitonclick()
-
 
 
 
