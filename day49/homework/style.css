@@ -1,0 +1,63 @@
+.d1 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: blue;
+    clip-path: circle(27.6% at 49% 53%);
+}
+.d2 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: green;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.d3 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+.d4 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: yellow;
+    clip-path: ellipse(25% 40% at 50% 50%);
+}
+.d5 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: purple;
+    clip-path: inset(5% 20% 15% 10%);
+}
+.d6 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: rgb(255, 128, 0);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.d7 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: pink;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.d8 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: gold;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+.d9 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: skyblue;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}

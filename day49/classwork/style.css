@@ -1,0 +1,21 @@
+.d1 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: blue;
+    clip-path: circle(27.6% at 49% 53%);
+}
+.d2 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: green;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.d3 {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 50px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
