@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main Page</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>Choose a Programmer</h1>
+        <form id="programmerForm">
+            <label>
+                <input type="radio" name="programmer" value="Ada Lovelace"> Ada Lovelace
+            </label>
+            <label>
+                <input type="radio" name="programmer" value="Alan Turing"> Alan Turing
+            </label>
+            <label>
+                <input type="radio" name="programmer" value="Grace Hopper"> Grace Hopper
+            </label>
+            <label>
+                <input type="radio" name="programmer" value="Linus Torvalds"> Linus Torvalds
+            </label>
+            <br><br>
+            <button type="button" onclick="showProgrammer()">Show Info</button>
+        </form>
+
+        <div id="programmerInfo"></div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
