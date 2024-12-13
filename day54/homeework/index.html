@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="ka">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>მარტივი კალკულატორი</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="calculator-container">
-        <h1>მარტივი კალკულატორი</h1>
-        <label for="num1">პირველი რიცხვი:</label>
-        <input type="number" id="num1" placeholder="შეიყვანეთ პირველი რიცხვი">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>მარტივი კალკულატორი</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator-container">
+            <h1>მარტივი კალკულატორი</h1>
+            <label for="num1">პირველი რიცხვი:</label>
+            <input type="number" id="num1" placeholder="შეიყვანეთ პირველი რიცხვი">
 
-        <label for="num2">მეორე რიცხვი:</label>
-        <input type="number" id="num2" placeholder="შეიყვანეთ მეორე რიცხვი">
+            <label for="num2">მეორე რიცხვი:</label>
+            <input type="number" id="num2" placeholder="შეიყვანეთ მეორე რიცხვი">
 
-        <label for="operation">აირჩიეთ ოპერაცია:</label>
-        <select id="operation">
-            <option value="მიმატება">მიმატება</option>
-            <option value="გამოკლება">გამოკლება</option>
-        </select>
+            <label for="operation">აირჩიეთ ოპერაცია:</label>
+            <select id="operation">
+                <option value="მიმატება">მიმატება</option>
+                <option value="გამოკლება">გამოკლება</option>
+            </select>
 
-        <button onclick="calculate()">გამოთვლა</button>
-        <h2 id="result">შედეგი: </h2>
-    </div>
-    <script src="script.js"></script>
-</body>
+            <button onclick="calculate()">გამოთვლა</button>
+            <h2 id="result">შედეგი: </h2>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>

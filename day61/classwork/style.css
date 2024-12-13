@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#counter {
+    width: 200px;
+    font-size: 48px;
+    margin-left: 600px;
+    background-color: rgba(0, 203, 221, 0.819);
+    border-radius: 50%;
+    margin-top: 200px;
+}
+.back-video{
+    padding-right: -20px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-add {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-subtract {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-reset {
+    background-color: #008CBA;
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+.btn-add:hover {
+    color: aquamarine;
+}
+.btn-subtract:hover {
+    color: salmon;
+}
+.btn-reset:hover{
+    color: skyblue;
+}
