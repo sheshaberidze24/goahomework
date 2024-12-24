@@ -1,0 +1,37 @@
+/* ზოგადი სტილები */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5F8B94; /* ლურჯ-მწვანე ფონი */
+}
+
+/* ლოგოს კონტეინერი */
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+}
+
+/* ხაზების სტილი */
+.line {
+    background-color: white;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.large {
+    width: 100px; /* ყველაზე გრძელი ხაზი */
+}
+
+.medium {
+    width: 70px; /* საშუალო სიგრძის ხაზი */
+}
+
+.small {
+    width: 40px; /* ყველაზე მოკლე ხაზი */
+}
