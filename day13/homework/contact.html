@@ -1,58 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <script src="https://kit.fontawesome.com/5d538e6527.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>საკონტაქტო გვერდი</title>
+    <link rel="stylesheet" href="style.css">
     </head>
-    <body background="https://t4.ftcdn.net/jpg/05/39/21/05/360_F_539210563_dmX1bRNOinwmtFfy1Y7UFQHMz4fHKTEL.jpg">
-    <div style="text-align: center;">
-    <button><a href="https://www.facebook.com/nika.sheshaberidze.33"><i class="fa-brands fa-square-facebook"></i>  my facebook </a></button>
-    <br>
-    <a href="https://www.instagram.com/nika_nikaa02/" ><button><i class="fa-brands fa-square-instagram"></i>  my instagram</button></a> 
-
-
-    <br>
-    <br>
-    <br>
-    <div style="border: 2px solid black; width: 500px;">
-    <table border="2">
-        <tr>
-            <th>
-                NAME: 
-            </th>
-        <th>
-            Nika 
-        </th>
-        </tr>
-    </table>
-    <br>
-    <table border="2">
-        <tr>
-            <th>
-                Surname:
-            </th>
-            <th>
-            Sheshaberidze
-            </th>
-        </tr>
-    </table>
-    <br>
-    <table border="2">
-        <tr>
-            <th>
-                Age:
-            </th>
-            <th>
-            16Yo
-            </th>
-        </tr>
-    </table>
-    <h2>This is me:</h2>
-    <img src="https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-1/447478844_1183381443074378_5417599944192721758_n.jpg?stp=dst-jpg_s200x200&_nc_cat=109&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeGIONVVY7bEAYifnObm90cLy_ivcJi_X03L-K9wmL9fTbJGunRS0JBVYKKSekzst2ldov84g5FzlOO8O82n1_pS&_nc_ohc=k-Q3eZeNPToQ7kNvgHB7TOB&_nc_ht=scontent.ftbs5-3.fna&oh=00_AYBxLyph9nc8RYku2yAjGQQoJSLOqoiI3J9snCuZm603aw&oe=668C9B9B">
-    </div>
-    </div>
+    <body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="index.html">მთავარი</a></li>
+            <li><a href="contact.html">საკონტაქტო</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>დაგვიკავშირდით</h1>
+        <form action="#" method="post">
+        <div class="form-group">
+            <label for="email">ელ. ფოსტა:</label>
+            <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი ელ. ფოსტა" required>
+        </div>
+        <div class="form-group">
+            <label for="firstName">სახელი:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="შეიყვანეთ თქვენი სახელი" required>
+        </div>
+        <div class="form-group">
+            <label for="lastName">გვარი:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="შეიყვანეთ თქვენი გვარი" required>
+        </div>
+        <div class="form-group">
+            <label for="message">მესიჯი:</label>
+            <textarea id="message" name="message" placeholder="შეიყვანეთ თქვენი მესიჯი" required></textarea>
+        </div>
+        <button type="submit">გაგზავნა</button>
+        </form>
+    </main>
+    <footer>
+        <p>ყველა უფლება დაცულია © 2025</p>
+    </footer>
     </body>
 </html>
